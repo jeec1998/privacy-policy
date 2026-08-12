@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Moodrink</title>
+    <meta name="description" content="Política de Privacidad oficial de Moodrink: Modo Borracho. Información detallada sobre el uso de permisos, servicio de accesibilidad y protección de datos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --primary: #8b5cf6;
+            --primary-glow: rgba(139, 92, 246, 0.3);
+            --accent: #ec4899;
+            --text-main: #f8fafc;
+            --text-secondary: #94a3b8;
+            --success: #10b981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            background: rgba(139, 92, 246, 0.15);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            color: #c4b5fd;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #c4b5fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(139, 92, 246, 0.4);
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #e2e8f0;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+            border-radius: 4px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 12px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: rgba(139, 92, 246, 0.08);
+            border-left: 4px solid var(--primary);
+            border-radius: 0 12px 12px 0;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            color: #ddd6fe;
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">Google Play Compliant</span>
+            <h1>Política de Privacidad</h1>
+            <p class="subtitle">Moodrink: Modo Borracho • Última actualización: 12 de Agosto de 2026</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>1. Introducción</h2>
+                <p>Bienvenido a <strong>Moodrink: Modo Borracho</strong> ("nosotros", "nuestra aplicación"). Nos comprometemos a proteger su privacidad. Esta Política de Privacidad explica de forma transparente cómo se maneja la información del usuario en nuestra aplicación móvil (ID de paquete: <code>com.jeec98.moodrink</code>).</p>
+                <div class="highlight-box">
+                    <p><strong>Resumen de Privacidad:</strong> Moodrink opera 100% de manera local en su dispositivo. No recopilamos, almacenamos en servidores externos, ni vendemos ninguna información personal ni listas de contactos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>2. Uso de la API de Accesibilidad (Accessibility Service)</h2>
+                <p>En cumplimiento con las políticas de desarrolladores de Google Play, declaramos explícitamente el uso del <strong>Servicio de Accesibilidad (AccessibilityService API)</strong>:</p>
+                <ul>
+                    <li><strong>Propósito Exclusivo:</strong> La API de Accesibilidad se utiliza de forma única para detectar cuando aplicaciones de distracción o redes sociales (ej. WhatsApp, Instagram, Facebook) son abiertas mientras el <em>Modo Borracho</em> está activo, desplegando una pantalla de bloqueo preventivo.</li>
+                    <li><strong>Sin Recopilación de Datos:</strong> El Servicio de Accesibilidad <strong>NO</strong> lee textos, mensajes, teclados, contraseñas, ni recopila ningún contenido mostrado en la pantalla.</li>
+                    <li><strong>Transparencia:</strong> El permiso solo se activa tras la autorización previa del usuario y puede desactivarse en cualquier momento desde los ajustes de Android.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>3. Permisos de Contactos y Llamadas</h2>
+                <p>Para ofrecer la funcionalidad de llamadas de emergencia y filtro en estado de ebriedad, la aplicación solicita los siguientes permisos:</p>
+                <ul>
+                    <li><strong>Lectura de Contactos (READ_CONTACTS):</strong> Permite al usuario seleccionar manualmente qué contactos formarán parte de su "Lista Blanca" de contactos seguros. Los contactos seleccionados permanecen almacenados exclusivamente en la memoria local de su dispositivo.</li>
+                    <li><strong>Redirección e Interceptación de Llamadas (CallRedirectionService):</strong> Permite interceptar las llamadas salientes únicamente cuando el Modo Borracho está activado. Si el número no está en su lista segura, la llamada se cancela automáticamente. No se registran ni transmiten historiales de llamadas.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>4. Almacenamiento Local y Seguridad</h2>
+                <p>Toda la configuración del usuario, estado del Modo Borracho y números seguros se almacenan localmente mediante <code>SharedPreferences</code> de Android en el almacenamiento privado de la aplicación.</p>
+                <p>No utilizamos servicios de análisis de terceros que rastreen la identidad del usuario ni servidores en la nube para procesar datos.</p>
+            </div>
+
+            <div class="card">
+                <h2>5. Eliminación de Datos</h2>
+                <p>El usuario tiene el control total sobre sus datos. Al desinstalar la aplicación o al borrar los datos de la app desde los ajustes de Android, toda la información almacenada (contactos seguros y preferencias) se eliminará de forma permanente e irrecuperable de su dispositivo.</p>
+            </div>
+
+            <div class="card">
+                <h2>6. Contacto y Soporte</h2>
+                <p>Si tiene alguna duda o pregunta sobre esta Política de Privacidad o el funcionamiento de la aplicación, puede ponerse en contacto con el equipo de desarrollo a través de:</p>
+                <p>📧 <strong>Correo electrónico de soporte:</strong> <a href="mailto:support@jeec98.com" style="color: var(--primary);">support@jeec98.com</a></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Moodrink App. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
